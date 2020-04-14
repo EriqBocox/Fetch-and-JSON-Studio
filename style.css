@@ -5,7 +5,7 @@
 }
 
 .astronaut {
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -13,4 +13,37 @@
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 6px;
+    background-color: white;
+    padding: 0;
+	background-color: rgb(240, 240, 240);
+	background-image: url("https://c8.alamy.com/comp/T9BRRD/libra-the-scales-zodiac-constellation-map-on-a-starry-space-background-with-the-names-of-its-main-stars-stars-relative-sizes-and-color-shades-based-o-T9BRRD.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+    color: rgb(166, 255, 0);
+    /* height: 500px; */
+}
+
+h1{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 60px;
+    color: rgb(166, 255, 0);
+}
+
+#container{
+    max-width: 500px;
+    margin:auto
+}
+
+html {
+	padding: 0;
+	background-color: rgba(76, 0, 255, 0.10);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+    background-image: url("https://previews.123rf.com/images/dmitriyrazinkov/dmitriyrazinkov1609/dmitriyrazinkov160900225/62434353-topographic-map-background-concept-with-space-for-your-copy-topography-lines-art-contour-mountain-hi.jpg");
+    height: 500px;
 }
